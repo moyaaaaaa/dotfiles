@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -33,3 +34,17 @@
             (setq c-basic-offset 2)
             ;; use code format
             (add-hook 'before-save-hook 'meghanada-code-beautify-before-save)))
+=======
+;; ~/.emacs.d/site-lisp 以下全部読み込み
+(package-initialize)
+(let ((default-directory (expand-file-name "~/.emacs.d/site-lisp")))
+  (add-to-list 'load-path default-directory)
+  (if (fboundp 'normal-top-level-add-subdirs-to-load-path)
+      (normal-top-level-add-subdirs-to-load-path)))
+
+;; initsディレクトリ以下の設定ファイルを読み込む
+(require 'init-loader)
+(setq init-loader-show-log-after-init nil)
+(init-loader-load "~/.emacs.d/inits")
+
+>>>>>>> home
