@@ -11,6 +11,9 @@
 (define-key helm-map (kbd "C-i") 'helm-execute-persistent-action) ; make TAB work in terminal
 (define-key helm-map (kbd "C-z")  'helm-select-action) ; list actions using C-z
 
+(global-set-key (kbd "C-x C-f") 'helm-for-files)
+(global-set-key (kbd "C-x C-h m") 'helm-mini)
+
 (when (executable-find "curl")
   (setq helm-google-suggest-use-curl-p t))
 
