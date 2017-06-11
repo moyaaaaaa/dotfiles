@@ -12,5 +12,7 @@
 
 (require 'redo+)
 (global-set-key (kbd "C-M-/") 'redo)
-(custom-set-variables)
 
+;; テーマ設定
+(load-theme 'railscast t t)
+(enable-theme 'railscast)

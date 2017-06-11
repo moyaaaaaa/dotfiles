@@ -1,0 +1,15 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("54_meghanada.el"
+ (filename . "~/dotfiles/.emacs.d/inits/53_dired.el")
+ (front-context-string . " custom-set-vari")
+ (rear-context-string)
+ (position . 3))
+("Project ~/"
+ (filename . "~/dotfiles/.emacs.d/inits/51_helm.el")
+ (front-context-string . "        ;; 必要とあれ")
+ (rear-context-string . "-in-current-dir\n")
+ (position . 1756))
+)
