@@ -21,3 +21,4 @@
 ;; テーマ設定
 (load-theme 'railscast t t)
 (enable-theme 'railscast)
+
