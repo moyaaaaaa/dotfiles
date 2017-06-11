@@ -7,3 +7,6 @@
 (require 'init-loader)
 (setq init-loader-show-log-after-init nil)
 (init-loader-load "~/.emacs.d/inits")
+
+(require 'redo+)
+(global-set-key (kbd "C-M-/") 'redo)
