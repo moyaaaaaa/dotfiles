@@ -10,15 +10,3 @@
 (setq init-loader-show-log-after-init nil)
 (init-loader-load "~/.emacs.d/inits")
 
-;; Caskの設定
-(require 'cask "~/.cask/cask.el")
-(cask-initialize)
-(require 'pallet)
-
-(require 'redo+)
-(global-set-key (kbd "C-M-/") 'redo)
-
-;; テーマ設定
-(load-theme 'railscast t t)
-(enable-theme 'railscast)
-

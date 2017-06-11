@@ -1,3 +1,16 @@
+;; Caskの設定
+(require 'cask "~/.cask/cask.el")
+(cask-initialize)
+(require 'pallet)
+
+(require 'redo+)
+(global-set-key (kbd "C-M-/") 'redo)
+
+;; テーマ設定
+(load-theme 'railscast t t)
+(enable-theme 'railscast)
+
+
 ;; エディター系の設定
 ;; 環境を日本語、UTF-8にする
 (set-locale-environment nil)
