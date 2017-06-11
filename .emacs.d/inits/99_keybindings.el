@@ -8,5 +8,8 @@
 (when (eq system-type 'darwin)
   ;; commandキーをメタキーとして割り当てる
   (setq mac-command-modifier 'meta)
-  
-  )
+
+  ;; optionをメタキーにする
+  (setq mac-option-modifier 'meta)
+
+ )

@@ -52,8 +52,6 @@
 (require 'cursor-chg)
 (setq curchg-default-cursor-type 'bar)
 (change-cursor-mode 1)
-;;(setq cursor_type 'bar)
-;;(add-to-list 'default-frame-alist '(cursor-type . 'bar))
 
 ;; カーソル行をハイライトする
 (global-hl-line-mode t)
@@ -84,7 +82,5 @@
     (ding)))
 (setq ring-bell-function 'my-bell-function)
 
-;; Macのoptionをメタキーにする
-(setq mac-option-modifier 'meta)
-
-
+;; 括弧の自動挿入
+(electric-pair-mode 1)
