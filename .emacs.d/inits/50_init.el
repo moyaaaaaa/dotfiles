@@ -1,12 +1,3 @@
-;; Caskの設定
-(require 'cask "~/.cask/cask.el")
-(cask-initialize)
-(require 'pallet)
-
-;; elscreenの設定
-;; (require 'elscreen)
-;; (elscreen-start)
-
 ;; エディター系の設定
 ;; 環境を日本語、UTF-8にする
 (set-locale-environment nil)
@@ -84,3 +75,11 @@
 
 ;; 括弧の自動挿入
 (electric-pair-mode 1)
+
+;; タブ幅の設定
+(defun my-java-mode-common-init ()
+  (setq indent-tabs-mode nil)
+  (setq c-basic-offset 4)
+)
+
+(add-hook 'java-mode-hook 'my-java-mode-common-init)
