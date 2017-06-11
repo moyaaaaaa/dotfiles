@@ -24,16 +24,24 @@
       helm-ff-file-name-history-use-recentf t
       helm-echo-input-in-header-line t)
 
-(defun spacemacs//helm-hide-minibuffer-maybe ()
-  "Hide minibuffer in Helm session if we use the header line as input field."
-  (when (with-helm-buffer helm-echo-input-in-header-line)
-    (let ((ov (make-overlay (point-min) (point-max) nil nil t)))
-      (overlay-put ov 'window (selected-window))
-      (overlay-put ov 'face
-                   (let ((bg-color (face-background 'default nil)))
-                     `(:background ,bg-color :foreground ,bg-color)))
-      (setq-local cursor-type nil))))
-
+;; 最近のファイル500個を保存する
+(setq recentf-max-saved-items 500)
+;; 最近使ったファイルに加えないファイルを
+;; 正規表現で指定する
+(setq recentf-exclude
+      '("/TAGS$" "/var/tmp/"))
+;; recentfをディレクトリにも拡張した上に、
+;; 「最近開いたファイル」を「最近使ったファイル」に進化させる
+(require 'recentf-ext)
+(setq helm-for-files-preferred-list
+      '(helm-source-buffers-list
+        helm-source-recentf
+        helm-source-bookmarks
+        helm-source-file-cache
+        helm-source-files-in-current-dir
+        ;; 必要とあれば
+        helm-source-bookmark-set
+        helm-source-locate))
 
 (add-hook 'helm-minibuffer-set-up-hook
           'spacemacs//helm-hide-minibuffer-maybe)
