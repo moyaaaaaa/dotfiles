@@ -1,0 +1,763 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Thu Jun 15 19:50:17 2017
+;; Desktop file format version 208
+;; Emacs version 25.2.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22850 26217 451141 0) (desktop . "208") "ohmae@ohmae.synchro-food.local" nil nil ((((font-backend mac-ct) (fontsize . 0) (font . "-*-Ricty Diminished Discord-normal-normal-normal-*-16-*-*-*-m-0-iso10646-1") (border-width . 0) (internal-border-width . 2) (vertical-scroll-bars . right) (horizontal-scroll-bars) (foreground-color . "#E6E1DC") (background-color . "#232323") (line-spacing) (left-fringe . 8) (right-fringe . 8) (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (icon-type) (auto-raise) (auto-lower) (cursor-type . bar) (scroll-bar-width . 15) (scroll-bar-height . 0) (alpha) (fullscreen . fullboth) (display-type . color) (background-mode . dark) (cursor-color . "Red") (environment) (frameset--id . "09C9-7D08-9206-3095") (frameset--mini t . t) (height . 67) (width . 235) (modeline . t) (minibuffer . t) (unsplittable) (left . 1282) (top + -556) (right-divider-width . 0) (bottom-divider-width . 0) (icon-name) (visibility . t) (display . "ohmae.synchro-food.local") (explicit-name) (tool-bar-position . top)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 10) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 64) (min-pixel-width . 80) (min-pixel-height-ignore . 48) (min-pixel-width-ignore . 80) (min-pixel-height-safe . 16) (min-pixel-width-safe . 16)) leaf (pixel-width . 1911) (pixel-height . 1056) (total-width . 238) (total-height . 66) (normal-height . 1.0) (normal-width . 1.0) (buffer "*terminal<1>*" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins 4) (scroll-bars nil 2 t nil 0 nil) (vscroll . 0) (dedicated) (point . 64764) (start . 61053))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("getFlag" "statusCodeItem" "_e.display" "browsingCustomerItems" "<web" "System.out" "S" "de" "log" "RecruitS" "Recruit" "<filter>" "RecruitServiceAccess" "Recrui" "RecruitService" "recruitservie"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/.emacs.d/" "~/git/ES9000/src/main/webapp/WEB-INF/view/manage/jobinshokuten/recruit/serviceBrowsingCustomer/list/index.jsp" "~/git/ES9000/src/main/java/synchrofood/agile/entity/jobinshokuten/RecruitServiceBrowsingCustomer.java" "~/git/ES9000/src/main/java/synchrofood/agile/action/manage/jobinshokuten/recruit/serviceBrowsingCustomer/ListAction.java" "~/git/inshokuten-com/src/main/java/synchrofood/firm/logic/recruit/IRecruitServiceBrowsingCustomerLogic.java" "~/git/inshokuten-com/src/main/java/synchrofood/agile/logic/recruit/RecruitServiceBrowsingCustomerLogic.java" "~/git/inshokuten-com/src/main/webapp/WEB-INF/web.xml" "~/git/" "/Library/tomcat8/conf/server.xml" "/Library/tomcat8/logs/catalina.2017-06-12.log" "/Library/tomcat8/conf/logging.properties" "/Library/tomcat8/logs/catalina.out" "~/git/inshokuten-com/src/main/webapp/WEB-INF/web.xml.product" "~/git/inshokuten-com/src/main/java/synchrofood/agile/entity/jobinshokuten/RecruitServiceBrowsingCustomer.java" "~/git/inshokuten-com/src/main/java/synchrofood/agile/logic/recruit/RecruiteServiceBrowsingCustomerLogic.java" "~/git/inshokuten-com/src/main/java/synchrofood/firm/logic/recruit/IRecruiteServiceBrowsingCustomerLogic.java" "~/git/inshokuten-com/src/main/java/synchrofood/firm/logic/recruit/RecruiteServiceBrowsingCustomerLogic.java" "~/git/inshokuten-com/src/main/java/synchrofood/firm/filter/KitchenMemberFilter.java" "~/git/inshokuten-com/src/main/java/synchrofood/agile/service/BukkenService.java" "~/git/inshokuten-com/src/main/java/synchrofood/firm/logic/login/ILoginLogic.java" "~/git/inshokuten-com/src/main/java/synchrofood/firm/filter/CustomerLoginFilter.java" "~/git/inshokuten-com/src/main/java/synchrofood/firm/filter/RecruitRedirectFilter.java" "~/.emacs.d/inits/56_eclim.el" "~/git/inshokuten-com/src/main/java/synchrofood/firm/logic/login/bukken/IStationSearchCondLogic.java" "~/dotfiles/.emacs.d/inits/57_auto-complete.el" "~/dotfiles/.emacs.d/init.el" "~/git/inshokuten-com/src/main/java/synchrofood/firm/filter/CompanyLoginFilter.java" "~/git/inshokuten-com/src/main/java/synchrofood/firm/logic/login/LoginLogic.java" "~/git/inshokuten-com/src/main/java/synchrofood/agile/action/LoginAction.java" "~/git/inshokuten-com/src/main/java/synchrofood/agile/action/recruit/JobseekerAction.java" "~/git/inshokuten-com/src/main/webapp/WEB-INF/view/recruit/index.jsp" "~/git/inshokuten-com/src/main/java/synchrofood/firm/filter/InshokutenResearchRedirectFilter.java" "~/git/inshokuten-com/src/main/java/synchrofood/firm/filter/RecruitServiceMailFilter.java" "~/git/inshokuten-com/src/main/java/synchrofood/firm/filter/RecruitUserLimitFilter.java" "/Library/tomcat8/conf/web.xml" "~/git/" "~/git/inshokuten-com/src/main/java/synchrofood/agile/action/recruit/IndexAction.java" "~/git/inshokuten-com/src/main/java/synchrofood/agile/action/recruit/ScheduleAction.java" "~/git/inshokuten-com/src/main/java/synchrofood/agile/action/recruit/ServiceAction.java" "~/.emacs.d/inits/58_multi-term.el" "~/dotfiles/.emacs.d/bookmarks" "~/.emacs.d/bookmarks" "~/dotfiles/.emacs.d/inits/50_init.el" "~/dotfiles/.emacs.d/.cask/25.2/elpa/company-emacs-eclim-20170104.743/company-emacs-eclim-autoloads.el" "~/dotfiles/.emacs.d/.cask/25.2/elpa/ac-emacs-eclim-20170104.743/ac-emacs-eclim-autoloads.el" "~/dotfiles/.emacs.d/.cask/25.2/elpa/company-20170613.1653/company-autoloads.el" "~/dotfiles/.emacs.d/.cask/25.2/elpa/dash-20170613.151/dash-autoloads.el" "~/dotfiles/.emacs.d/.cask/25.2/elpa/helm-20170612.2141/helm-autoloads.el" "~/dotfiles/.emacs.d/.cask/25.2/elpa/helm-core-20170613.1205/helm-core-autoloads.el" "~/dotfiles/.emacs.d/.cask/25.2/elpa/meghanada-20170611.2347/meghanada-autoloads.el" "~/dotfiles/.emacs.d/.cask/25.2/elpa/web-mode-20170613.959/web-mode-autoloads.el" "~/dotfiles/.emacs.d/.cask/25.2/elpa/package-utils-20170222.2352/package-utils-autoloads.el" "~/git/ES9000/src/main/java/synchrofood/agile/service/jobinshokuten/RecruitServiceBrowsingCustomerService.java" "~/git/inshokuten-com/src/main/webapp/WEB-INF/view/recruit/service/index.jsp" "~/git/ES9000/src/main/java/synchrofood/agile/form/manage/jobinshokuten/recruit/serviceBrowsingCustomer/ListForm.java" "~/git/ES9000/src/main/webapp/WEB-INF/view/manage/jobinshokuten/customer/list/list.jsp" "~/git/ES9000/src/main/java/synchrofood/agile/entity/jobinshokuten/CustomerEnquete.java" "~/.gitconfig_global" "~/.gitconfig" "~/git/ES9000/src/main/java/synchrofood/agile/service/jobinshokuten/CustomerEnqueteService.java" "~/dotfiles/.emacs.d/.cask/25.2/elpa/auto-complete-20170124.1845/auto-complete-autoloads.el" "~/dotfiles/.emacs.d/inits/99_keybindings.el" "~/git/ES9000/src/main/java/synchrofood/agile/enums/DeleteFlag.java" "~/git/sql/job_inshokuten_db/Y13701_1.sql" "~/.bashrc" "~/dotfiles/.emacs.d/inits/54_meghanada.el" "~/git/ES9000/src/main/webapp/WEB-INF/view/manage/jobinshokuten/customerEnquete/sentList/index.jsp" "~/git/inshokuten-com/src/main/webapp/WEB-INF/view/mypage/recruit/v2/article/input.jsp" "~/git/inshokuten-com/src/main/webapp/WEB-INF/view/mypage/recruit/v2/shop/list/list.jsp" "~/git/inshokuten-com/src/main/webapp/WEB-INF/view/mypage/recruit/index.jsp" "~/git/inshokuten-com/src/main/java/synchrofood/agile/action/mypage/recruit/v2/article/IndexAction.java" "/Applications/Emacs.app/Contents/Resources/etc/PROBLEMS" "~/dotfiles/.emacs.d/inits/55_web-mode.el" "~/.emacs.d/init.el" "~/.emacs.d/inits/55_web-mode.el" "~/git/ES9000/src/main/java/synchrofood/agile/action/manage/ManageBaseAction.java" "/Applications/Emacs.app/Contents/Resources/etc/NEWS" "~/git/ES9000/src/main/java/synchrofood/agile/action/manage/jobinshokuten/customerEnquete/SentListAction.java" "~/dotfiles/.emacs.d/inits/51_elscreen.el" "~/git/inshokuten-com/src/main/java/synchrofood/agile/action/mypage/recruit/v2/article/JobAction.java" "~/git/inshokuten-com/src/main/webapp/WEB-INF/view/mypage/recruit/v2/article/index.jsp" "~/dotfiles/.emacs.d/.cask/25.2/elpa/ensime-20170611.1428/ensime-autoloads.el" "~/dotfiles/.emacs.d/.cask/25.2/elpa/scala-mode-20170611.806/scala-mode-autoloads.el" "~/dotfiles/.emacs.d/.cask/25.2/elpa/sbt-mode-20170530.355/sbt-mode-autoloads.el" "~/dotfiles/.emacs.d/.cask/25.2/elpa/hydra-20170325.815/hydra-autoloads.el" "~/dotfiles/.emacs.d/.cask/25.2/elpa/realgud-20170603.1430/realgud-autoloads.el" "~/dotfiles/.emacs.d/.cask/25.2/elpa/load-relative-20170526.310/load-relative-autoloads.el" "~/dotfiles/.emacs.d/.cask/25.2/elpa/loc-changes-20160801.1008/loc-changes-autoloads.el" "~/dotfiles/.emacs.d/.cask/25.2/elpa/test-simple-20170527.832/test-simple-autoloads.el" "~/dotfiles/.emacs.d/.cask/25.2/elpa/google-c-style-20140929.1118/google-c-style-autoloads.el" "~/dotfiles/.emacs.d/.cask/25.2/elpa/autodisass-java-bytecode-20151005.912/autodisass-java-bytecode-autoloads.el" "~/.emacs.d/inits/50_init.el" "~/dotfiles/.emacs.d/.cask/25.2/elpa/elscreen-20160613.251/elscreen-autoloads.el" "~/dotfiles/.emacs.d/inits/98_font.el" "~/git/inshokuten-com/src/main/java/synchrofood/agile/action/mypage/recruit/v2/article/JobOrderChangeAction.java" "~/.emacs.d/inits/98_font.el"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/Users/ohmae/git/ES9000/src/main/webapp/WEB-INF/view/manage/jobinshokuten/recruit/serviceBrowsingCustomer/list/index.jsp"
+  "index.jsp"
+  'web-mode
+  '(linum-mode auto-complete-mode)
+  10161
+  '(9973 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (9973 10002 9973 9973 9973 9973 6290 6311 6380 6371 6290 6234 6380 6385 9973 9973))))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/ES9000/src/main/java/synchrofood/agile/entity/jobinshokuten/RecruitServiceBrowsingCustomer.java"
+  "RecruitServiceBrowsingCustomer.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  2848
+  '(1371 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring (1382 1007 1023 3022 2342 2338 2372 2483 2418 2602 2575 3094 2423 2418 2114 2847))))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/ES9000/src/main/java/synchrofood/agile/action/manage/jobinshokuten/recruit/serviceBrowsingCustomer/ListAction.java"
+  "ListAction.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  5438
+  '(5239 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (3033 3376 564))))
+
+(desktop-create-buffer 208
+  "/var/folders/k0/352vds_55133wjsf7by0xxhr80cmbd/T/eclim/jp/co/synchrofood/utils/EnumUtil.java"
+  "EnumUtil.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  973
+  '(1130 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring (1144 1158 973))))
+
+(desktop-create-buffer 208
+  "/var/folders/k0/352vds_55133wjsf7by0xxhr80cmbd/T/eclim/jp/co/synchrofood/enums/Codable.java"
+  "Codable.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  111
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/agile/action/recruit/IndexAction.java"
+  "IndexAction.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  2982
+  '(2921 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring (1466 766 587 3813 5460 2944 4967 2727 2510 2552 3006 2214 4608 2214 2742 6851))))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/agile/action/recruit/ScheduleAction.java"
+  "ScheduleAction.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  2196
+  '(946 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring (1136))))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/ES9000/src/main/webapp/WEB-INF/view/manage/recu"
+  "recu"
+  'fundamental-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/agile/action/recruit/ServiceAction.java"
+  "ServiceAction.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  4541
+  '(7753 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring (4476 2994 4900 23292 4292 4006 4974 4914 4891 4974 4974 5050 4910))))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/agile/entity/jobinshokuten/RecruitServiceBrowsingCustomer.java"
+  "RecruitServiceBrowsingCustomer.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  2000
+  '(2430 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring (346 2434 1 2435 2430 2435))))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/firm/filter/RecruitServiceAccessFilter.java"
+  "RecruitServiceAccessFilter.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  1652
+  '(1436 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1632 1436 1028 1359 1932 1359 1359 1922 692 1948 1590 1570 1631 1561 1436 1452))))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/webapp/WEB-INF/web.xml"
+  "web.xml"
+  'nxml-mode
+  '(linum-mode)
+  9538
+  '(32 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-dos))
+  '((mark-ring (9538 20512 10270 9431 20528 9543 20564 9302 1998 9475 20667 20512 20147 18831 9594 241))))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/firm/logic/recruit/IRecruitServiceBrowsingCustomerLogic.java"
+  "IRecruitServiceBrowsingCustomerLogic.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  67
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/agile/logic/recruit/RecruitServiceBrowsingCustomerLogic.java"
+  "RecruitServiceBrowsingCustomerLogic.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  852
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/agile/logic/recruit/RecruiteServiceBrowsingCustomerLogic.java"
+  "RecruiteServiceBrowsingCustomerLogic.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  1856
+  '(4862 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos) (truncate-lines . t))
+  '((mark-ring (4862 4862 4862 5133 5070 5011 4922 4931 5058 5058 5104 5157 4900 4900 4900 5004))))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/firm/filter/CustomerLoginFilter.java"
+  "CustomerLoginFilter.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  2159
+  '(2587 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring (1852 533 1620 1401 1696 740 1762 1396 1506 1675 1672))))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/agile/action/recruit/JobseekerAction.java"
+  "JobseekerAction.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  1707
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Library/tomcat8/conf/server.xml"
+  "server.xml"
+  'nxml-mode
+  '(linum-mode)
+  6908
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (7364 6908))))
+
+(desktop-create-buffer 208
+  "/Library/tomcat8/logs/localhost_access_log.2017-04-26.txt"
+  "localhost_access_log.2017-04-26.txt"
+  'text-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Library/tomcat8/logs/catalina.2017-06-12.log"
+  "catalina.2017-06-12.log"
+  'fundamental-mode
+  '(linum-mode)
+  22475
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Library/tomcat8/conf/logging.properties"
+  "logging.properties"
+  'conf-javaprop-mode
+  '(linum-mode)
+  604
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-dos))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Library/tomcat8/logs/catalina.out"
+  "catalina.out"
+  'fundamental-mode
+  '(linum-mode)
+  8036
+  '(8036 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (8036))))
+
+(desktop-create-buffer 208
+  "/var/log/CDIS.custom"
+  "CDIS.custom"
+  'fundamental-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  t
+  nil
+  '((buffer-file-coding-system . undecided-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/webapp/WEB-INF/web.xml.product"
+  "web.xml.product"
+  'nxml-mode
+  '(linum-mode)
+  19834
+  '(20048 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-dos))
+  '((mark-ring (9131 8974 1402 1085))))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/firm/filter/KitchenMemberFilter.java"
+  "KitchenMemberFilter.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  686
+  '(608 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring (1336 549 402 401 608 608 1324 1029 1026 611))))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/agile/service/BukkenService.java"
+  "BukkenService.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  300
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/firm/ent"
+  "ent"
+  'fundamental-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/firm/logic/login/ILoginLogic.java"
+  "ILoginLogic.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  161
+  '(413 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-dos))
+  '((mark-ring (161))))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/firm/logic/recruit/IRecruiteServiceBrowsingCustomerLogic.java"
+  "IRecruiteServiceBrowsingCustomerLogic.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  362
+  '(297 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring (125 306 297 359 362))))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/firm/logic/recruit/RecruiteServiceBrowsingCustomerLogic.java"
+  "RecruiteServiceBrowsingCustomerLogic.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  286
+  '(209 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring (361 361 361 361 286))))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/agile/fi"
+  "fi"
+  'fundamental-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/firm/logic/login/LoginLogic.java"
+  "LoginLogic.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  86
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/firm/filter/RecruitRedirectFilter.java"
+  "RecruitRedirectFilter.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  1260
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/firm/filter/CompanyLoginFilter.java"
+  "CompanyLoginFilter.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  149
+  '(1074 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring (1605))))
+
+(desktop-create-buffer 208
+  "/var/folders/k0/352vds_55133wjsf7by0xxhr80cmbd/T/eclim/org/seasar/framework/container/SingletonS2Container.java"
+  "SingletonS2Container.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  1279
+  '(885 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/fil"
+  "fil"
+  'fundamental-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/firm/logic/login/bukken/IStationSearchCondLogic.java"
+  "IStationSearchCondLogic.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  319
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . undecided-dos))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/.emacs.d/inits/56_eclim.el"
+  "56_eclim.el"
+  'emacs-lisp-mode
+  '(linum-mode auto-complete-mode)
+  298
+  '(298 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (170))))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/dotfiles/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(linum-mode auto-complete-mode)
+  1349
+  '(1349 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/dotfiles/.emacs.d/inits/57_auto-complete.el"
+  "57_auto-complete.el"
+  'emacs-lisp-mode
+  '(linum-mode auto-complete-mode)
+  232
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/firm/logic/recruit/RecruitServiceBrowsingCustomerLogic.java"
+  "RecruitServiceBrowsingCustomerLogic.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  110
+  '(107 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix) (truncate-lines . t))
+  '((mark-ring (65))))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/firm/dto/LoginResult.java"
+  "LoginResult.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  1236
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/agile/action/LoginAction.java"
+  "LoginAction.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  6342
+  '(6247 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring (563))))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/agile/logic/login/LoginLogic.java"
+  "LoginLogic.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  9572
+  '(5678 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/webapp/WEB-INF/view/recruit/index.jsp"
+  "index.jsp"
+  'web-mode
+  '(linum-mode auto-complete-mode)
+  1647
+  '(1288 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-dos))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/web/synchrofood/agile/action/recruit/"
+  "recruit"
+  'fundamental-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/we/synchrofood/agile/action/recruit/"
+  "recruit"
+  'fundamental-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/weba/synchrofood/agile/action/recruit/"
+  "recruit"
+  'fundamental-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/firm/filter/InshokutenResearchRedirectFilter.java"
+  "InshokutenResearchRedirectFilter.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  725
+  '(1 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/var/folders/k0/352vds_55133wjsf7by0xxhr80cmbd/T/eclim/javax/servlet/Filter.class"
+  "Filter.class"
+  'fundamental-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . no-conversion))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/firm/filter/RecruitServiceMailFilter.java"
+  "RecruitServiceMailFilter.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  361
+  '(876 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/fi"
+  "fi"
+  'fundamental-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/git/inshokuten-com/src/main/java/synchrofood/firm/filter/RecruitUserLimitFilter.java"
+  "RecruitUserLimitFilter.java"
+  'java-mode
+  '(abbrev-mode linum-mode eclim-mode auto-complete-mode)
+  2392
+  '(nil nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-dos))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Library/tomcat8/conf/web.xml"
+  "web.xml"
+  'nxml-mode
+  '(linum-mode)
+  63807
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . iso-latin-1-unix))
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/WARNING: The locate database (/var/db/* Exit with code 1, no result found, command line was:\n\n locate -i inshokuten-com recruit/serviceWARNING: The locate database (/var/db/locate.database) does not exist."
+  "locate.database) does not exist."
+  'fundamental-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/WARNING: The locate database (/var/db/* Exit with code 1, no result found, command line was:\n\n locate -i inshokuten-com recruit/serviceWARNING: The locate database (/var/db/* Exit with code 1, no result found, command line was:\n\n locate -i inshokuten-com recruit/WARNING: The locate database (/var/db/* Exit with code 1, no result found, command line was:\n\n locate -i inshokuten-com recruit/WARNING: The locate database (/var/db/* Exit with code 1, no result found, command line was:\n\n locate -i inshokuten-com recruit/WARNING: The locate database (/var/db/* Exit with code 1, no result found, command line was:\n\n locate -i inshokuten-com recruit/WARNING: The locate database (/var/db/locate.database) does not exist."
+  "locate.database) does not exist."
+  'fundamental-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/WARNING: The locate database (/var/db/* Exit with code 1, no result found, command line was:\n\n locate -i inshokuten-com recruit/serviceWARNING: The locate database (/var/db/* Exit with code 1, no result found, command line was:\n\n locate -i inshokuten-com recruit/WARNING: The locate database (/var/db/* Exit with code 1, no result found, command line was:\n\n locate -i inshokuten-com recruit/WARNING: The locate database (/var/db/* Exit with code 1, no result found, command line was:\n\n locate -i inshokuten-com recruit/WARNING: The locate database (/var/db/locate.database) does not exist."
+  "locate.database) does not exist."
+  'fundamental-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/WARNING: The locate database (/var/db/* Exit with code 1, no result found, command line was:\n\n locate -i inshokuten-com recruit/serviceWARNING: The locate database (/var/db/* Exit with code 1, no result found, command line was:\n\n locate -i inshokuten-com recruit/WARNING: The locate database (/var/db/* Exit with code 1, no result found, command line was:\n\n locate -i inshokuten-com recruit/WARNING: The locate database (/var/db/locate.database) does not exist."
+  "locate.database) does not exist."
+  'fundamental-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/WARNING: The locate database (/var/db/* Exit with code 1, no result found, command line was:\n\n locate -i inshokuten-com recruit/serviceWARNING: The locate database (/var/db/* Exit with code 1, no result found, command line was:\n\n locate -i inshokuten-com recruit/WARNING: The locate database (/var/db/locate.database) does not exist."
+  "locate.database) does not exist."
+  'fundamental-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/WARNING: The locate database (/var/db/locate.database) does not exist."
+  "locate.database) does not exist."
+  'fundamental-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/WARNING: The locate database (/var/db/WARNING: The locate database (/var/db/locate.database) does not exist."
+  "locate.database) does not exist."
+  'fundamental-mode
+  '(linum-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  nil
+  '((mark-ring nil)))
+
+(desktop-create-buffer 208
+  "/Users/ohmae/.emacs.d/inits/58_multi-term.el"
+  "58_multi-term.el"
+  'emacs-lisp-mode
+  '(linum-mode auto-complete-mode)
+  96
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix))
+  '((mark-ring nil)))
+

@@ -64,9 +64,9 @@
 (show-paren-mode 1)
 
 ;; ウィンドウ内に収まらないときだけ、カッコ内も光らせる
-(setq show-paren-style 'mixed)
-(set-face-background 'show-paren-match-face "grey")
-(set-face-foreground 'show-paren-match-face "black")
+;; (setq show-paren-style 'mixed)
+;; (set-face-background 'show-paren-match-face "grey")
+;; (set-face-foreground 'show-paren-match-face "black")
 
 ;; スクロールは１行ごとに
 (setq scroll-conservatively 1)
@@ -89,10 +89,11 @@
 ;; 括弧の自動挿入
 (electric-pair-mode 1)
 
-;; タブ幅の設定
-(defun my-java-mode-common-init ()
-  (setq indent-tabs-mode nil)
-  (setq c-basic-offset 4)
-)
+;; 改行とか括弧の後に自動でインデントを入れない
+(electric-indent-mode -1)
 
-(add-hook 'java-mode-hook 'my-java-mode-common-init)
+;; ホイールでスクロールする行数を設定
+(setq mouse-wheel-scroll-amount '(1 ((shift). 2) (controll)))
+
+;; 行がはみ出しても折り返さない
+(setq truncate-partial-width-windows nil)

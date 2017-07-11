@@ -1,7 +1,17 @@
+(defun web-mode-jsp()
+  (interactive)
+  (setq indent-line-function 'tab-to-tab-stop)
+  (setq tab-width 4)
+  (setq indent-tabs-mode t)
+  (setq c-basic-offset 4)
+)
+(add-hook 'web-mode-jsp 'web-mode-jsp)
+
 ;; 拡張子の設定
 (add-to-list 'auto-mode-alist '("\\.phtml$"     . web-mode))
 (add-to-list 'auto-mode-alist '("\\.tpl\\.php$" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.jsp$"       . web-mode))
+(add-to-list 'auto-mode-alist '("\\.jsp$"       . web-mode-jsp))
 (add-to-list 'auto-mode-alist '("\\.as[cp]x$"   . web-mode))
 (add-to-list 'auto-mode-alist '("\\.erb$"       . web-mode))
 (add-to-list 'auto-mode-alist '("\\.html?$"     . web-mode))
@@ -26,3 +36,4 @@
   (setq web-mode-tag-auto-close-style 2)
 )
 (add-hook 'web-mode-hook 'web-mode-hook)
+
