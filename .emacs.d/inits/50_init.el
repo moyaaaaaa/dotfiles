@@ -4,7 +4,8 @@
 (require 'pallet)
 
 (require 'redo+)
-(global-set-key (kbd "C-M-/") 'redo)
+(global-set-key (kbd "C-_") 'undo)
+(global-set-key (kbd "M-_") 'redo)
 
 ;; テーマ設定
 (load-theme 'railscast t t)
