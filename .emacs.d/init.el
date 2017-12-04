@@ -20,7 +20,9 @@
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
    (quote
-    (multi-term company-emacs-eclim auto-complete package-utils ac-emacs-eclim eclim web-mode use-package smex smartparens redo+ realgud projectile prodigy popwin pallet package+ nyan-mode multiple-cursors meghanada magit init-loader idle-highlight-mode hydra htmlize helm google-c-style flycheck-cask expand-region exec-path-from-shell ensime elscreen drag-stuff cursor-chg autodisass-java-bytecode))))
+    (browse-kill-ring multi-term company-emacs-eclim auto-complete package-utils ac-emacs-eclim eclim web-mode use-package smex smartparens redo+ realgud projectile prodigy popwin pallet package+ nyan-mode multiple-cursors meghanada magit init-loader idle-highlight-mode hydra htmlize helm google-c-style flycheck-cask expand-region exec-path-from-shell ensime elscreen drag-stuff cursor-chg autodisass-java-bytecode)))
+ '(term-default-bg-color "#000000")
+ '(term-default-fg-color "#dddd00"))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
